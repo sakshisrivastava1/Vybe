@@ -5,8 +5,8 @@ import {sendMail} from '../config/mail.js'
 
 const cookieOptions = {
   httpOnly:true,
-  sameSite:'lax',
-  secure:false,
+  sameSite:'none',
+  secure:true,
   path:'/'
 }
 
