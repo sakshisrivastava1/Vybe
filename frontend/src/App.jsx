@@ -27,7 +27,7 @@ import { setNotificationData } from './redux/userSlice'
 import getAllNotifications from './hooks/getAllNotifications'
 import {ToastContainer} from 'react-toastify'
 
-export const serverUrl = 'http://localhost:3000'
+export const serverUrl = 'https://vybe-backend-ihfq.onrender.com'
 
 function App() {
 
