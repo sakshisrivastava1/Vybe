@@ -1,7 +1,7 @@
 import express from 'express'
 import { isAuth } from '../middleware/isAuth.js'
 import { upload } from '../middleware/multer.js'
-import { comment, getAllLoops, like, uploadLoop } from '../controllers/loopcontroller.js'
+import { comment, getAllLoops, like, uploadLoop } from '../controllers/loopController.js'
 
 const loopRoute = express.Router()
 
