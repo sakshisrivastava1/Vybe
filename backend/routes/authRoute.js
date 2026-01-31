@@ -1,6 +1,6 @@
 import express from 'express' 
 import { isAuth } from '../middleware/isAuth.js'
-import { login, logout, signup,sendOtp,verifyOtp,resetPassword } from '../controllers/authController.js'
+import { login, logout, signup, sendOtp, verifyOtp, resetPassword } from '../controllers/authController.js'
 const router = express.Router()
 
 router.post('/signup',signup)
