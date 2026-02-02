@@ -48,6 +48,13 @@ function Profile() {
   useEffect(() => {
     handleProfile()
   }, [username])
+
+  useEffect(() => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}, [profileData]);
   
   return (
     <div className='w-full min-h-screen bg-black'>
